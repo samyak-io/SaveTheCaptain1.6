@@ -52,6 +52,7 @@ function setup(){
     //create background
     backgr = createSprite(windowWidth/2 + 200, windowHeight/2 - 40, windowWidth, windowHeight);
     backgr.addImage(backgroundImg);
+    backgr.scale = 1.08;
     backgr.x = backgr.width/2;
     
     //create ground
