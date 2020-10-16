@@ -61,7 +61,7 @@ function setup(){
     ground.velocityX = -(3 + 2*score/100);
 
     //create player
-    cap = createSprite(windowWidth/8 - 30,ground.y);
+    cap = createSprite(windowWidth/windowWidth + 30,ground.y);
     cap.scale = 2.5;
     cap.addAnimation("running",capRunImg);
     cap.addAnimation("idle", capIdleImg);
